@@ -1,0 +1,32 @@
+{
+  "name": "lorem-graphql",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Rafał Filipek <rafal.filipek@gmail.com>",
+  "description": "Simple GraphQL example",
+  "homepage": "https://github.com/RafalFilipek/lorem-graphql",
+  "bugs": {
+    "url": "https://github.com/RafalFilipek/lorem-graphql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RafalFilipek/lorem-graphql.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "express-graphql": "0.5.4",
+    "graphql": "0.7.2"
+  },
+  "devDependencies": {
+    "eslint": "3.8.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.1"
+  }
+}

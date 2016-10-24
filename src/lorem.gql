@@ -1,0 +1,29 @@
+type Letter {
+  value: String
+  code: Int
+}
+
+type Word {
+  value: String
+  letters: [Letter]
+  letter(index: Int = 0): Letter
+}
+
+type Sentence {
+  value: String
+  words: [Word]
+  word(index: Int = 0): Word
+  letters: [Letter]
+}
+
+type Lorem {
+  value: String
+  sentences: [Sentence]
+  sentence(index: Int = 0): Sentence
+  words: [Word]
+  letters: [Letter]
+}
+
+type Query {
+  lorem: Lorem
+}
