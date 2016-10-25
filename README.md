@@ -1,6 +1,6 @@
 # Lorem-GraphQL
 
-Simple GtraphQL API for *Lorem Ipsum Paragraph*. Whats inside?
+Simple GraphQL API for *Lorem Ipsum Paragraph*. Whats inside?
 
  - simple GraphQL schema.
  - Rich API ;)
